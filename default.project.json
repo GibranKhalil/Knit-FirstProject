@@ -1,0 +1,38 @@
+{
+    "name":"knit-firstproject",
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+
+            "Packages":{
+                "$path": "Packages"
+            }
+        },
+
+        "ServerScriptService":{
+            "$className": "ServerScriptService",
+            "Game": {
+                "$path": "src/ServerScriptService/Game"
+            }
+        },
+
+        "ServerStorage":{
+            "$className": "ServerStorage",
+            "Source": {
+                "$path": "src/ServerStorage"
+            }
+        },
+
+        "StarterPlayer":{
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts":{
+                "$className": "StarterPlayerScripts",
+                "Game":{
+                    "$path": "src/StarterPlayerScripts"
+                }
+            }
+        }
+    }
+}
