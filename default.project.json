@@ -32,6 +32,12 @@
                 "Game":{
                     "$path": "src/StarterPlayerScripts"
                 }
+            },
+            "StarterCharacterScripts":{
+                "$className": "StarterCharacterScripts",
+                "Game":{
+                    "$path": "src/StarterCharacterScripts"
+                }
             }
         }
     }
