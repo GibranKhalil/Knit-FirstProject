@@ -1,6 +1,4 @@
 local Knit = require(game:GetService("ReplicatedStorage").Packages.Knit)
-local Component = require(Knit.Util.Component)
-
 
 for _, v in script.Parent.Services:GetDescendants() do
     if v:IsA("ModuleScript") then
@@ -11,8 +9,8 @@ end
 
  
 
-Knit.Start():andThen(function()
-    Component.Auto(script.Parent.Components)
+ Knit.Start():andThen(function()
+    
 end):catch(warn)
 
 --Aqui é iniciado o Knit.

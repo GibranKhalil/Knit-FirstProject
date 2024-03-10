@@ -6,6 +6,10 @@
         "ReplicatedStorage": {
             "$className": "ReplicatedStorage",
 
+            "Class":{
+                "$path": "src/ReplicatedStorage/Class"
+            },
+            
             "Packages":{
                 "$path": "Packages"
             }
@@ -31,12 +35,6 @@
                 "$className": "StarterPlayerScripts",
                 "Game":{
                     "$path": "src/StarterPlayerScripts"
-                }
-            },
-            "StarterCharacterScripts":{
-                "$className": "StarterCharacterScripts",
-                "Game":{
-                    "$path": "src/StarterCharacterScripts"
                 }
             }
         }
